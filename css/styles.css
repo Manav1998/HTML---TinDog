@@ -26,7 +26,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 #title {
@@ -63,17 +63,33 @@ h3 {
 /* Title Image */
 
 .phone {
-    position: relative;
-    left: 5rem;
-    width: 60%;
+    position: absolute;
+    width: 20%;
     transform: rotate(25deg);
+}
+
+@media (max-width: 1028px) {
+    
+    .phone {
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
 }
 
 /* Features Secction*/
 
 #features {
+    position: relative;
+    z-index: 1;
     text-align: center;
     margin: 0 10% 10%;
+    background-color: #fff;
 }
 
 .feature-item {
@@ -130,4 +146,15 @@ h3 {
 .press-image {
     width: 15%;
     margin: 0 2.5%;
+}
+
+/* Pricing Testimonials */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
