@@ -158,3 +158,30 @@ h3 {
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 8% 25%;
+    text-align: center;
+}
+
+.cta-text {
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 4%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer section */
+
+#footer {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.footer-icon {
+    padding: 0 6px 20px;
+}
